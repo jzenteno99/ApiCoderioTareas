@@ -38,8 +38,8 @@ export class HomeComponent implements OnInit{
     this.tareaService.deleteTarea(id).subscribe(data=>{
       //
     });
-    this.getAllTareas();
     alert('Registro borrado Exitosamente');
+    this.getAllTareas();
   }
 
   onKeyAP(event:any){
